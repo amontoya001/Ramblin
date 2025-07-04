@@ -2,15 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Local Restaurant</title>
+  <title>Ramblin Cafe – Mexican Home Cooking</title>
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #e67e22; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #c62828;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ffcc80;
+      padding: 0.75rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #6d4c41;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      padding: 3rem;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center;
+      background-size: cover;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .content {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    footer {
+      background-color: #c62828;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    .section-title {
+      color: #d84315;
+      border-bottom: 2px solid #ff7043;
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to Our Restaurant!</h1>
-  <p>See our menu and contact info soon!</p>
+
+  <header>
+    <h1>Ramblin Cafe</h1>
+    <p>Authentic Mexican Home Cooking Since 1997</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <p>Flavor that brings you home.</p>
+  </section>
+
+  <div class="content">
+    <section id="menu">
+      <h2 class="section-title">Our Menu</h2>
+      <p>Enjoy family recipes made with love – from tamales to tacos and everything in between. (Menu coming soon!)</p>
+    </section>
+
+    <section id="about">
+      <h2 class="section-title">About Us</h2>
+      <p>Ramblin Cafe is a family-owned gem offering home-cooked Mexican food that warms the soul. Located in the heart of our neighborhood, we’ve been serving love on a plate since 1997.</p>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>📍 123 Main Street, YourTown, USA<br>
+         📞 (123) 456-7890<br>
+         🕐 Open daily from 10am – 8pm</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ramblin Cafe. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
 
